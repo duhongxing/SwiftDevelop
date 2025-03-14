@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E15172F2CE6E9C500347285 /* DuButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15172E2CE6E9C500347285 /* DuButtonViewController.swift */; };
+		0E1C3F082CCBB8220009D82F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F072CCBB8220009D82F /* AppDelegate.swift */; };
+		0E1C3F0C2CCBB8220009D82F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F0B2CCBB8220009D82F /* ViewController.swift */; };
+		0E1C3F0F2CCBB8220009D82F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C3F0D2CCBB8220009D82F /* Main.storyboard */; };
+		0E1C3F112CCBB8240009D82F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C3F102CCBB8240009D82F /* Assets.xcassets */; };
+		0E1C3F142CCBB8240009D82F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C3F122CCBB8240009D82F /* LaunchScreen.storyboard */; };
+		0E1C3F1F2CCBB8240009D82F /* DuSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F1E2CCBB8240009D82F /* DuSwiftDemoTests.swift */; };
+		0E1C3F292CCBB8240009D82F /* DuSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F282CCBB8240009D82F /* DuSwiftDemoUITests.swift */; };
+		0E1C3F2B2CCBB8240009D82F /* DuSwiftDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F2A2CCBB8240009D82F /* DuSwiftDemoUITestsLaunchTests.swift */; };
+		0E1C3F382CD8AC150009D82F /* DuWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F372CD8AC150009D82F /* DuWebView.swift */; };
+		0E1C3F3A2CD8B4DC0009D82F /* DuWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F392CD8B4DB0009D82F /* DuWebViewController.swift */; };
+		0E1C3F3C2CD8EC430009D82F /* DuHollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F3B2CD8EC430009D82F /* DuHollowViewController.swift */; };
+		0E1C3F3E2CD8F1BF0009D82F /* DuCompressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F3D2CD8F1BF0009D82F /* DuCompressionViewController.swift */; };
+		0E1C3F402CD8F1CB0009D82F /* DuBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F3F2CD8F1CB0009D82F /* DuBaseViewController.swift */; };
+		0E1C3F422CD9F5290009D82F /* DuPieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C3F412CD9F5290009D82F /* DuPieChartViewController.swift */; };
+		0E466FBC2CF5C6A100F0BBE7 /* DuSegmentChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E466FBB2CF5C6A000F0BBE7 /* DuSegmentChartViewController.swift */; };
+		0E7B4AF12CED88240017C7D1 /* DuLocaledNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B4AF02CED88240017C7D1 /* DuLocaledNumberViewController.swift */; };
+		0EC19C292D82826600C72D78 /* DuSwiftBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC19C282D82826600C72D78 /* DuSwiftBaseViewController.swift */; };
+		0EC19C2D2D8283F700C72D78 /* DuOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC19C2C2D8283F700C72D78 /* DuOCViewController.m */; };
+		0EC19C2F2D82C54D00C72D78 /* DuDesignPatternsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC19C2E2D82C54D00C72D78 /* DuDesignPatternsViewController.swift */; };
+		0EC19C762D82F26E00C72D78 /* DuHTTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC19C752D82F26E00C72D78 /* DuHTTPViewController.swift */; };
+		0EC19C782D841D2700C72D78 /* Interview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC19C772D841D2700C72D78 /* Interview.swift */; };
+		0EC425372D5451E70004BEA6 /* DuDesignPrinciplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC425362D5451E70004BEA6 /* DuDesignPrinciplesViewController.swift */; };
+		0EC425392D5456750004BEA6 /* DuSOLIDExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC425382D5456750004BEA6 /* DuSOLIDExample.swift */; };
+		0EC4253B2D5460BB0004BEA6 /* DuCopyOnWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4253A2D5460BB0004BEA6 /* DuCopyOnWriteViewController.swift */; };
+		0EC425FC2D6431070004BEA6 /* DuAlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC425FB2D6431070004BEA6 /* DuAlgorithmViewController.swift */; };
+		0EC426022D687B050004BEA6 /* DuInstrumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC426012D687B050004BEA6 /* DuInstrumentsViewController.swift */; };
+		0EC426042D6C745D0004BEA6 /* DuBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC426032D6C745D0004BEA6 /* DuBluetoothViewController.swift */; };
+		0EC426062D6EEAF70004BEA6 /* DuStructClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC426052D6EEAF70004BEA6 /* DuStructClassViewController.swift */; };
+		0EC426922D7543170004BEA6 /* DuThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC426912D7543170004BEA6 /* DuThreadViewController.swift */; };
+		0EC426942D75CE730004BEA6 /* DuClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC426932D75CE730004BEA6 /* DuClosureViewController.swift */; };
+		0EC426962D769EF20004BEA6 /* DuCoreAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC426952D769EF20004BEA6 /* DuCoreAnimationViewController.swift */; };
+		0EC426A92D772B4C0004BEA6 /* DuURLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC426A82D772B4C0004BEA6 /* DuURLSessionViewController.swift */; };
+		0EC426AB2D7828180004BEA6 /* DuMetricKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC426AA2D7828180004BEA6 /* DuMetricKitManager.swift */; };
+		0EC426FD2D7AF4450004BEA6 /* DuLeaksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC426FC2D7AF4450004BEA6 /* DuLeaksViewController.swift */; };
+		46246115FA5940E11771F736 /* Pods_DuSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C77E45A2974F71376B3873 /* Pods_DuSwiftDemoTests.framework */; };
+		91A671C230EF689E8BCDCA32 /* Pods_DuSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262F9858B88AAA8CA5D2A028 /* Pods_DuSwiftDemo.framework */; };
+		A72A7B8C2BEC1D5E294B62A9 /* Pods_DuSwiftDemo_DuSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C30920FDEF4A0676B8A17E5 /* Pods_DuSwiftDemo_DuSwiftDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E1C3F1B2CCBB8240009D82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E1C3EFC2CCBB8210009D82F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1C3F032CCBB8220009D82F;
+			remoteInfo = DuSwiftDemo;
+		};
+		0E1C3F252CCBB8240009D82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E1C3EFC2CCBB8210009D82F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1C3F032CCBB8220009D82F;
+			remoteInfo = DuSwiftDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E15172E2CE6E9C500347285 /* DuButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuButtonViewController.swift; sourceTree = "<group>"; };
+		0E1C3F042CCBB8220009D82F /* DuSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1C3F072CCBB8220009D82F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E1C3F0B2CCBB8220009D82F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E1C3F0E2CCBB8220009D82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E1C3F102CCBB8240009D82F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E1C3F132CCBB8240009D82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E1C3F152CCBB8240009D82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1C3F1A2CCBB8240009D82F /* DuSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1C3F1E2CCBB8240009D82F /* DuSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuSwiftDemoTests.swift; sourceTree = "<group>"; };
+		0E1C3F242CCBB8240009D82F /* DuSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1C3F282CCBB8240009D82F /* DuSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuSwiftDemoUITests.swift; sourceTree = "<group>"; };
+		0E1C3F2A2CCBB8240009D82F /* DuSwiftDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuSwiftDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E1C3F372CD8AC150009D82F /* DuWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuWebView.swift; sourceTree = "<group>"; };
+		0E1C3F392CD8B4DB0009D82F /* DuWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuWebViewController.swift; sourceTree = "<group>"; };
+		0E1C3F3B2CD8EC430009D82F /* DuHollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuHollowViewController.swift; sourceTree = "<group>"; };
+		0E1C3F3D2CD8F1BF0009D82F /* DuCompressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuCompressionViewController.swift; sourceTree = "<group>"; };
+		0E1C3F3F2CD8F1CB0009D82F /* DuBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuBaseViewController.swift; sourceTree = "<group>"; };
+		0E1C3F412CD9F5290009D82F /* DuPieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuPieChartViewController.swift; sourceTree = "<group>"; };
+		0E466FBB2CF5C6A000F0BBE7 /* DuSegmentChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuSegmentChartViewController.swift; sourceTree = "<group>"; };
+		0E7B4AF02CED88240017C7D1 /* DuLocaledNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuLocaledNumberViewController.swift; sourceTree = "<group>"; };
+		0EC19C282D82826600C72D78 /* DuSwiftBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuSwiftBaseViewController.swift; sourceTree = "<group>"; };
+		0EC19C2A2D8283F700C72D78 /* DuSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DuSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		0EC19C2B2D8283F700C72D78 /* DuOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuOCViewController.h; sourceTree = "<group>"; };
+		0EC19C2C2D8283F700C72D78 /* DuOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuOCViewController.m; sourceTree = "<group>"; };
+		0EC19C2E2D82C54D00C72D78 /* DuDesignPatternsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuDesignPatternsViewController.swift; sourceTree = "<group>"; };
+		0EC19C752D82F26E00C72D78 /* DuHTTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuHTTPViewController.swift; sourceTree = "<group>"; };
+		0EC19C772D841D2700C72D78 /* Interview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview.swift; sourceTree = "<group>"; };
+		0EC425362D5451E70004BEA6 /* DuDesignPrinciplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuDesignPrinciplesViewController.swift; sourceTree = "<group>"; };
+		0EC425382D5456750004BEA6 /* DuSOLIDExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuSOLIDExample.swift; sourceTree = "<group>"; };
+		0EC4253A2D5460BB0004BEA6 /* DuCopyOnWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuCopyOnWriteViewController.swift; sourceTree = "<group>"; };
+		0EC425FB2D6431070004BEA6 /* DuAlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuAlgorithmViewController.swift; sourceTree = "<group>"; };
+		0EC426012D687B050004BEA6 /* DuInstrumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuInstrumentsViewController.swift; sourceTree = "<group>"; };
+		0EC426032D6C745D0004BEA6 /* DuBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuBluetoothViewController.swift; sourceTree = "<group>"; };
+		0EC426052D6EEAF70004BEA6 /* DuStructClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuStructClassViewController.swift; sourceTree = "<group>"; };
+		0EC426912D7543170004BEA6 /* DuThreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuThreadViewController.swift; sourceTree = "<group>"; };
+		0EC426932D75CE730004BEA6 /* DuClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuClosureViewController.swift; sourceTree = "<group>"; };
+		0EC426952D769EF20004BEA6 /* DuCoreAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuCoreAnimationViewController.swift; sourceTree = "<group>"; };
+		0EC426A82D772B4C0004BEA6 /* DuURLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuURLSessionViewController.swift; sourceTree = "<group>"; };
+		0EC426AA2D7828180004BEA6 /* DuMetricKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuMetricKitManager.swift; sourceTree = "<group>"; };
+		0EC426FC2D7AF4450004BEA6 /* DuLeaksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuLeaksViewController.swift; sourceTree = "<group>"; };
+		116B6E8A0573C0B2F855A11E /* Pods-DuSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-DuSwiftDemo/Pods-DuSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		262F9858B88AAA8CA5D2A028 /* Pods_DuSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		689FEEC0F61D85C4D169347F /* Pods-DuSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuSwiftDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DuSwiftDemoTests/Pods-DuSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C30920FDEF4A0676B8A17E5 /* Pods_DuSwiftDemo_DuSwiftDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuSwiftDemo_DuSwiftDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		956853329FD6922F9D035F0F /* Pods-DuSwiftDemo-DuSwiftDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuSwiftDemo-DuSwiftDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-DuSwiftDemo-DuSwiftDemoUITests/Pods-DuSwiftDemo-DuSwiftDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A80AED3230675224FAB809C6 /* Pods-DuSwiftDemo-DuSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuSwiftDemo-DuSwiftDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-DuSwiftDemo-DuSwiftDemoUITests/Pods-DuSwiftDemo-DuSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C294555A9D3EE56A6B7CC285 /* Pods-DuSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuSwiftDemoTests.release.xcconfig"; path = "Target Support Files/Pods-DuSwiftDemoTests/Pods-DuSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0C77E45A2974F71376B3873 /* Pods_DuSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEEB41E84F5B11FFEB74749 /* Pods-DuSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-DuSwiftDemo/Pods-DuSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1C3F012CCBB8220009D82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A671C230EF689E8BCDCA32 /* Pods_DuSwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C3F172CCBB8240009D82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46246115FA5940E11771F736 /* Pods_DuSwiftDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C3F212CCBB8240009D82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72A7B8C2BEC1D5E294B62A9 /* Pods_DuSwiftDemo_DuSwiftDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1C3EFB2CCBB8210009D82F = {
+			isa = PBXGroup;
+			children = (
+				0E1C3F062CCBB8220009D82F /* DuSwiftDemo */,
+				0E1C3F1D2CCBB8240009D82F /* DuSwiftDemoTests */,
+				0E1C3F272CCBB8240009D82F /* DuSwiftDemoUITests */,
+				0E1C3F052CCBB8220009D82F /* Products */,
+				A3F2A47D8167D70B1270DF8C /* Pods */,
+				DD13995DB264895912B72BDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E1C3F052CCBB8220009D82F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C3F042CCBB8220009D82F /* DuSwiftDemo.app */,
+				0E1C3F1A2CCBB8240009D82F /* DuSwiftDemoTests.xctest */,
+				0E1C3F242CCBB8240009D82F /* DuSwiftDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E1C3F062CCBB8220009D82F /* DuSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C3F072CCBB8220009D82F /* AppDelegate.swift */,
+				0E1C3F0B2CCBB8220009D82F /* ViewController.swift */,
+				0E1C3F372CD8AC150009D82F /* DuWebView.swift */,
+				0E1C3F392CD8B4DB0009D82F /* DuWebViewController.swift */,
+				0E1C3F3B2CD8EC430009D82F /* DuHollowViewController.swift */,
+				0E1C3F3D2CD8F1BF0009D82F /* DuCompressionViewController.swift */,
+				0E1C3F412CD9F5290009D82F /* DuPieChartViewController.swift */,
+				0E466FBB2CF5C6A000F0BBE7 /* DuSegmentChartViewController.swift */,
+				0E1C3F3F2CD8F1CB0009D82F /* DuBaseViewController.swift */,
+				0E15172E2CE6E9C500347285 /* DuButtonViewController.swift */,
+				0E7B4AF02CED88240017C7D1 /* DuLocaledNumberViewController.swift */,
+				0EC425362D5451E70004BEA6 /* DuDesignPrinciplesViewController.swift */,
+				0EC425382D5456750004BEA6 /* DuSOLIDExample.swift */,
+				0EC4253A2D5460BB0004BEA6 /* DuCopyOnWriteViewController.swift */,
+				0EC425FB2D6431070004BEA6 /* DuAlgorithmViewController.swift */,
+				0EC426012D687B050004BEA6 /* DuInstrumentsViewController.swift */,
+				0EC426032D6C745D0004BEA6 /* DuBluetoothViewController.swift */,
+				0EC426052D6EEAF70004BEA6 /* DuStructClassViewController.swift */,
+				0EC426912D7543170004BEA6 /* DuThreadViewController.swift */,
+				0EC426932D75CE730004BEA6 /* DuClosureViewController.swift */,
+				0EC426952D769EF20004BEA6 /* DuCoreAnimationViewController.swift */,
+				0EC426A82D772B4C0004BEA6 /* DuURLSessionViewController.swift */,
+				0EC426FC2D7AF4450004BEA6 /* DuLeaksViewController.swift */,
+				0EC19C282D82826600C72D78 /* DuSwiftBaseViewController.swift */,
+				0EC19C2E2D82C54D00C72D78 /* DuDesignPatternsViewController.swift */,
+				0EC19C752D82F26E00C72D78 /* DuHTTPViewController.swift */,
+				0EC19C772D841D2700C72D78 /* Interview.swift */,
+				0EC19C2B2D8283F700C72D78 /* DuOCViewController.h */,
+				0EC19C2C2D8283F700C72D78 /* DuOCViewController.m */,
+				0E1C3F0D2CCBB8220009D82F /* Main.storyboard */,
+				0E1C3F102CCBB8240009D82F /* Assets.xcassets */,
+				0E1C3F122CCBB8240009D82F /* LaunchScreen.storyboard */,
+				0E1C3F152CCBB8240009D82F /* Info.plist */,
+				0EC426AA2D7828180004BEA6 /* DuMetricKitManager.swift */,
+				0EC19C2A2D8283F700C72D78 /* DuSwiftDemo-Bridging-Header.h */,
+			);
+			path = DuSwiftDemo;
+			sourceTree = "<group>";
+		};
+		0E1C3F1D2CCBB8240009D82F /* DuSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C3F1E2CCBB8240009D82F /* DuSwiftDemoTests.swift */,
+			);
+			path = DuSwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		0E1C3F272CCBB8240009D82F /* DuSwiftDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C3F282CCBB8240009D82F /* DuSwiftDemoUITests.swift */,
+				0E1C3F2A2CCBB8240009D82F /* DuSwiftDemoUITestsLaunchTests.swift */,
+			);
+			path = DuSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		A3F2A47D8167D70B1270DF8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBEEB41E84F5B11FFEB74749 /* Pods-DuSwiftDemo.debug.xcconfig */,
+				116B6E8A0573C0B2F855A11E /* Pods-DuSwiftDemo.release.xcconfig */,
+				956853329FD6922F9D035F0F /* Pods-DuSwiftDemo-DuSwiftDemoUITests.debug.xcconfig */,
+				A80AED3230675224FAB809C6 /* Pods-DuSwiftDemo-DuSwiftDemoUITests.release.xcconfig */,
+				689FEEC0F61D85C4D169347F /* Pods-DuSwiftDemoTests.debug.xcconfig */,
+				C294555A9D3EE56A6B7CC285 /* Pods-DuSwiftDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD13995DB264895912B72BDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				262F9858B88AAA8CA5D2A028 /* Pods_DuSwiftDemo.framework */,
+				8C30920FDEF4A0676B8A17E5 /* Pods_DuSwiftDemo_DuSwiftDemoUITests.framework */,
+				D0C77E45A2974F71376B3873 /* Pods_DuSwiftDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E1C3F032CCBB8220009D82F /* DuSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1C3F2E2CCBB8240009D82F /* Build configuration list for PBXNativeTarget "DuSwiftDemo" */;
+			buildPhases = (
+				4CD1D8EFF5C1D17C87F77F8D /* [CP] Check Pods Manifest.lock */,
+				0E1C3F002CCBB8220009D82F /* Sources */,
+				0E1C3F012CCBB8220009D82F /* Frameworks */,
+				0E1C3F022CCBB8220009D82F /* Resources */,
+				5B0047CDCDB096AA1E699824 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuSwiftDemo;
+			productName = DuSwiftDemo;
+			productReference = 0E1C3F042CCBB8220009D82F /* DuSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E1C3F192CCBB8240009D82F /* DuSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1C3F312CCBB8240009D82F /* Build configuration list for PBXNativeTarget "DuSwiftDemoTests" */;
+			buildPhases = (
+				5DF72BD61954FFD5D407B30D /* [CP] Check Pods Manifest.lock */,
+				0E1C3F162CCBB8240009D82F /* Sources */,
+				0E1C3F172CCBB8240009D82F /* Frameworks */,
+				0E1C3F182CCBB8240009D82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E1C3F1C2CCBB8240009D82F /* PBXTargetDependency */,
+			);
+			name = DuSwiftDemoTests;
+			productName = DuSwiftDemoTests;
+			productReference = 0E1C3F1A2CCBB8240009D82F /* DuSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E1C3F232CCBB8240009D82F /* DuSwiftDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1C3F342CCBB8240009D82F /* Build configuration list for PBXNativeTarget "DuSwiftDemoUITests" */;
+			buildPhases = (
+				F598CCFDD11FCE3D2A022B0C /* [CP] Check Pods Manifest.lock */,
+				0E1C3F202CCBB8240009D82F /* Sources */,
+				0E1C3F212CCBB8240009D82F /* Frameworks */,
+				0E1C3F222CCBB8240009D82F /* Resources */,
+				132CCE1983778964097C3EF8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E1C3F262CCBB8240009D82F /* PBXTargetDependency */,
+			);
+			name = DuSwiftDemoUITests;
+			productName = DuSwiftDemoUITests;
+			productReference = 0E1C3F242CCBB8240009D82F /* DuSwiftDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E1C3EFC2CCBB8210009D82F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0E1C3F032CCBB8220009D82F = {
+						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1620;
+					};
+					0E1C3F192CCBB8240009D82F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0E1C3F032CCBB8220009D82F;
+					};
+					0E1C3F232CCBB8240009D82F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0E1C3F032CCBB8220009D82F;
+					};
+				};
+			};
+			buildConfigurationList = 0E1C3EFF2CCBB8210009D82F /* Build configuration list for PBXProject "DuSwiftDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E1C3EFB2CCBB8210009D82F;
+			productRefGroup = 0E1C3F052CCBB8220009D82F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1C3F032CCBB8220009D82F /* DuSwiftDemo */,
+				0E1C3F192CCBB8240009D82F /* DuSwiftDemoTests */,
+				0E1C3F232CCBB8240009D82F /* DuSwiftDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E1C3F022CCBB8220009D82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C3F142CCBB8240009D82F /* LaunchScreen.storyboard in Resources */,
+				0E1C3F112CCBB8240009D82F /* Assets.xcassets in Resources */,
+				0E1C3F0F2CCBB8220009D82F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C3F182CCBB8240009D82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C3F222CCBB8240009D82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		132CCE1983778964097C3EF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuSwiftDemo-DuSwiftDemoUITests/Pods-DuSwiftDemo-DuSwiftDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuSwiftDemo-DuSwiftDemoUITests/Pods-DuSwiftDemo-DuSwiftDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuSwiftDemo-DuSwiftDemoUITests/Pods-DuSwiftDemo-DuSwiftDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CD1D8EFF5C1D17C87F77F8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0047CDCDB096AA1E699824 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuSwiftDemo/Pods-DuSwiftDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuSwiftDemo/Pods-DuSwiftDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuSwiftDemo/Pods-DuSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF72BD61954FFD5D407B30D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuSwiftDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F598CCFDD11FCE3D2A022B0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuSwiftDemo-DuSwiftDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1C3F002CCBB8220009D82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC426942D75CE730004BEA6 /* DuClosureViewController.swift in Sources */,
+				0E7B4AF12CED88240017C7D1 /* DuLocaledNumberViewController.swift in Sources */,
+				0EC425392D5456750004BEA6 /* DuSOLIDExample.swift in Sources */,
+				0E1C3F422CD9F5290009D82F /* DuPieChartViewController.swift in Sources */,
+				0E1C3F402CD8F1CB0009D82F /* DuBaseViewController.swift in Sources */,
+				0EC19C2F2D82C54D00C72D78 /* DuDesignPatternsViewController.swift in Sources */,
+				0EC19C2D2D8283F700C72D78 /* DuOCViewController.m in Sources */,
+				0E1C3F0C2CCBB8220009D82F /* ViewController.swift in Sources */,
+				0E15172F2CE6E9C500347285 /* DuButtonViewController.swift in Sources */,
+				0E1C3F3A2CD8B4DC0009D82F /* DuWebViewController.swift in Sources */,
+				0EC426FD2D7AF4450004BEA6 /* DuLeaksViewController.swift in Sources */,
+				0EC426922D7543170004BEA6 /* DuThreadViewController.swift in Sources */,
+				0E466FBC2CF5C6A100F0BBE7 /* DuSegmentChartViewController.swift in Sources */,
+				0EC4253B2D5460BB0004BEA6 /* DuCopyOnWriteViewController.swift in Sources */,
+				0EC425FC2D6431070004BEA6 /* DuAlgorithmViewController.swift in Sources */,
+				0E1C3F082CCBB8220009D82F /* AppDelegate.swift in Sources */,
+				0E1C3F3E2CD8F1BF0009D82F /* DuCompressionViewController.swift in Sources */,
+				0E1C3F382CD8AC150009D82F /* DuWebView.swift in Sources */,
+				0EC426042D6C745D0004BEA6 /* DuBluetoothViewController.swift in Sources */,
+				0EC426962D769EF20004BEA6 /* DuCoreAnimationViewController.swift in Sources */,
+				0E1C3F3C2CD8EC430009D82F /* DuHollowViewController.swift in Sources */,
+				0EC426AB2D7828180004BEA6 /* DuMetricKitManager.swift in Sources */,
+				0EC425372D5451E70004BEA6 /* DuDesignPrinciplesViewController.swift in Sources */,
+				0EC19C292D82826600C72D78 /* DuSwiftBaseViewController.swift in Sources */,
+				0EC426062D6EEAF70004BEA6 /* DuStructClassViewController.swift in Sources */,
+				0EC19C762D82F26E00C72D78 /* DuHTTPViewController.swift in Sources */,
+				0EC426A92D772B4C0004BEA6 /* DuURLSessionViewController.swift in Sources */,
+				0EC426022D687B050004BEA6 /* DuInstrumentsViewController.swift in Sources */,
+				0EC19C782D841D2700C72D78 /* Interview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C3F162CCBB8240009D82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C3F1F2CCBB8240009D82F /* DuSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C3F202CCBB8240009D82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C3F2B2CCBB8240009D82F /* DuSwiftDemoUITestsLaunchTests.swift in Sources */,
+				0E1C3F292CCBB8240009D82F /* DuSwiftDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E1C3F1C2CCBB8240009D82F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E1C3F032CCBB8220009D82F /* DuSwiftDemo */;
+			targetProxy = 0E1C3F1B2CCBB8240009D82F /* PBXContainerItemProxy */;
+		};
+		0E1C3F262CCBB8240009D82F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E1C3F032CCBB8220009D82F /* DuSwiftDemo */;
+			targetProxy = 0E1C3F252CCBB8240009D82F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E1C3F0D2CCBB8220009D82F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1C3F0E2CCBB8220009D82F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E1C3F122CCBB8240009D82F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1C3F132CCBB8240009D82F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E1C3F2C2CCBB8240009D82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E1C3F2D2CCBB8240009D82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E1C3F2F2CCBB8240009D82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBEEB41E84F5B11FFEB74749 /* Pods-DuSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL3WDX87UC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DuSwiftDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.red.star.DuSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DuSwiftDemo/DuSwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E1C3F302CCBB8240009D82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116B6E8A0573C0B2F855A11E /* Pods-DuSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL3WDX87UC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DuSwiftDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.red.star.DuSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DuSwiftDemo/DuSwiftDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E1C3F322CCBB8240009D82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689FEEC0F61D85C4D169347F /* Pods-DuSwiftDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL3WDX87UC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.red.star.DuSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuSwiftDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DuSwiftDemo";
+			};
+			name = Debug;
+		};
+		0E1C3F332CCBB8240009D82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C294555A9D3EE56A6B7CC285 /* Pods-DuSwiftDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL3WDX87UC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.red.star.DuSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuSwiftDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DuSwiftDemo";
+			};
+			name = Release;
+		};
+		0E1C3F352CCBB8240009D82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956853329FD6922F9D035F0F /* Pods-DuSwiftDemo-DuSwiftDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL3WDX87UC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.red.star.DuSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DuSwiftDemo;
+			};
+			name = Debug;
+		};
+		0E1C3F362CCBB8240009D82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80AED3230675224FAB809C6 /* Pods-DuSwiftDemo-DuSwiftDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL3WDX87UC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.red.star.DuSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DuSwiftDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E1C3EFF2CCBB8210009D82F /* Build configuration list for PBXProject "DuSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C3F2C2CCBB8240009D82F /* Debug */,
+				0E1C3F2D2CCBB8240009D82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1C3F2E2CCBB8240009D82F /* Build configuration list for PBXNativeTarget "DuSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C3F2F2CCBB8240009D82F /* Debug */,
+				0E1C3F302CCBB8240009D82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1C3F312CCBB8240009D82F /* Build configuration list for PBXNativeTarget "DuSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C3F322CCBB8240009D82F /* Debug */,
+				0E1C3F332CCBB8240009D82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1C3F342CCBB8240009D82F /* Build configuration list for PBXNativeTarget "DuSwiftDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C3F352CCBB8240009D82F /* Debug */,
+				0E1C3F362CCBB8240009D82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E1C3EFC2CCBB8210009D82F /* Project object */;
+}
