@@ -172,7 +172,7 @@ extension DuDesignPatternsViewController {
     }
     
     class Factory {
-        static func getProduct(type: String) -> Product? {
+        static func createProduct(type: String) -> Product? {
             switch type {
             case "A":
                 return A()

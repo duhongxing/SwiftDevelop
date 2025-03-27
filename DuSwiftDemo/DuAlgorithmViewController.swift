@@ -178,16 +178,27 @@ extension BinaryTree {
 
 typealias Operation = (Int, Int) -> Int
 
+// MARK: Test
 class DuAlgorithmViewController: DuBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         testSort()
+        
+        var nums = [-1, 1, -5, 10, -5, 9, 10, 1, -5]
+        separatePositive(&nums)
+        print(nums)
     }
     
     func testSort() {
+        
         var numbers = [10,5,18,11,7,22,35,29,67]
-        insertionSort(&numbers)
+        
+        // insertionSort(&numbers)
+        
+        bubleSort(&numbers)
+        
+        print("numbers sort result: \(numbers)")
     }
     
     func testLinkList() {
@@ -363,6 +374,31 @@ indirect enum LinkedList<Element> {
 // MARK: - Sort Algorithm
 
 extension DuAlgorithmViewController {
+    
+    func bubleSort(_ array: inout [Int]) {
+        let count = array.count
+        for i in 0..<count {
+            for j in 0..<(count - i - 1) {
+                if array[j] > array[j + 1] {
+                    array.swapAt(j, j + 1)
+                }
+            }
+        }
+    }
+    
+    func selectionSort(_ array: inout [Int]) {
+        let count = array.count
+        for i in 0..<count {
+            var minIndex = i
+            for j in i+1..<count {
+                if array[j] < array[minIndex] {
+                    minIndex = j
+                }
+            }
+            array.swapAt(i, minIndex)
+        }
+    }
+    
     func insertionSort(_  numbers: inout [Int]) {
         let count = numbers.count
         for i in 1..<count {
@@ -374,10 +410,13 @@ extension DuAlgorithmViewController {
             }
             numbers[j + 1] = key
         }
-        print("numbers: \(numbers)")
     }
+    
+   
 }
 
+
+//MARK: A
 extension DuAlgorithmViewController {
     func moveZero(_ numbers: inout [Int]) {
         
@@ -385,4 +424,21 @@ extension DuAlgorithmViewController {
     
     // 常量 字面量
     // 避免冲突 不能将同一个变量传递给多个inout参数
+}
+
+
+extension DuAlgorithmViewController {
+    func separatePositive(_ nums: inout [Int]) {
+        var left = 0
+        var right = nums.count - 1
+        while left < right {
+            while left < right, nums[left] >= 0 {
+                left += 1
+            }
+            while left < right, nums[right] < 0 {
+                right -= 1
+            }
+            nums.swapAt(left, right)
+        }
+    }
 }

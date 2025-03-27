@@ -13,4 +13,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+
+@interface DuInterViewObjc : NSObject
+
+@property (nonatomic, assign) NSInteger value;
+
+@end
+
 NS_ASSUME_NONNULL_END

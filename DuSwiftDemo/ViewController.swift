@@ -38,7 +38,11 @@ class ViewController: UIViewController {
                                      "DuCoreAnimationViewController",
                                      "DuURLSessionViewController",
                                      "DuLeaksViewController",
-                                     "DuSwiftBaseViewController"]
+                                     "DuSwiftBaseViewController",
+                                     "DuScrollViewController",
+                                     "DuThemeViewController",
+                                     "DuOCViewController",
+                                     "DuRunLoopViewController"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -96,6 +100,12 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         if let vc = getViewConstoller(className) {
             vc.modalTransitionStyle = .crossDissolve
             vc.modalPresentationStyle = .overFullScreen
+            self.present(vc, animated: true)
+        } else {
+            let vc = DuOCViewController()
+            vc.modalTransitionStyle = .crossDissolve
+            vc.modalPresentationStyle = .overFullScreen
+            vc.view.backgroundColor = UIColor.randomColor
             self.present(vc, animated: true)
         }
     }

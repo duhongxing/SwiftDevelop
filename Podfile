@@ -12,6 +12,7 @@ target 'DuSwiftDemo' do
   pod 'SnapKit', '4.0.1'
   pod 'WCDB.swift'
   pod 'Alamofire'
+  pod 'FLAnimatedImage'
 
   target 'DuSwiftDemoTests' do
     inherit! :search_paths

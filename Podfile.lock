@@ -1,21 +1,33 @@
 PODS:
   - Alamofire (5.10.2)
+  - FLAnimatedImage (1.0.17)
   - SnapKit (4.0.1)
+  - WCDB.swift (2.1.9):
+    - WCDBOptimizedSQLCipher (= 1.4.6)
+  - WCDBOptimizedSQLCipher (1.4.6)
 
 DEPENDENCIES:
   - Alamofire
+  - FLAnimatedImage
   - SnapKit (= 4.0.1)
+  - WCDB.swift
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - FLAnimatedImage
+    - WCDB.swift
+    - WCDBOptimizedSQLCipher
   trunk:
     - SnapKit
 
 SPEC CHECKSUMS:
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  WCDB.swift: 64f662eddd53dfc1c8f821f8090b5b9ab3586882
+  WCDBOptimizedSQLCipher: c6451e1dead7ec53e1344a2545aaed2c4c139fc0
 
-PODFILE CHECKSUM: 8b1fd858eb6a6daac036cb38797ffcc33be4c149
+PODFILE CHECKSUM: 28352fc94480e6ecec0adce80c2fe946d506a878
 
 COCOAPODS: 1.14.2
